@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainMovieActivity">
+
+    <item
+        android:id="@+id/sort"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:enabled="false"
+        android:title="@string/sort_menu"/>
+
+    <item
+        android:id="@+id/top_rate"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="@string/top_rate_menu"/>
+    <item
+        android:id="@+id/popular"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        android:title="@string/most_popular_menu"/>
+    <item
+        android:id="@+id/favorite"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        android:title="Favorites"/>
+</menu>
